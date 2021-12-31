@@ -15,7 +15,7 @@ class QueryResults:
             id = '1', title = self.locales[lang].too_long_title,
             input_message_content = message_content,
             description = self.locales[lang].too_long_description,
-            thumb_url = 'https://i.imgur.com/xblMvAx.png')
+            thumb_url = 'https://telegra.ph/file/8563f0df6e8581900de8d.jpg')
 
     def mode_for(self, lang: str, post_id, body, scope_string):
         keyboard = types.InlineKeyboardMarkup(inline_keyboard =
@@ -27,7 +27,7 @@ class QueryResults:
             input_message_content = message_content,
             reply_markup = keyboard,
             description = body,
-            thumb_url = 'https://i.imgur.com/hHIkDSu.png')
+            thumb_url = 'https://telegra.ph/file/8563f0df6e8581900de8d.jpg')
 
     def mode_except(self, lang: str, post_id, body, scope_string):
         keyboard = types.InlineKeyboardMarkup(inline_keyboard =
@@ -39,7 +39,7 @@ class QueryResults:
             input_message_content = message_content,
             reply_markup = keyboard,
             description = body,
-            thumb_url = 'https://i.imgur.com/S6OZMHd.png')
+            thumb_url = 'https://telegra.ph/file/8563f0df6e8581900de8d.jpg')
 
     def mode_spoiler(self, lang: str, post_id, body):
         keyboard = types.InlineKeyboardMarkup(inline_keyboard =
@@ -51,17 +51,17 @@ class QueryResults:
             input_message_content = message_content,
             reply_markup = keyboard,
             description = body,
-            thumb_url = 'https://i.imgur.com/mS2ir0T.png')
+            thumb_url = 'https://telegra.ph/file/8563f0df6e8581900de8d.jpg')
 
 class Keyboards:
     def info_keyboard(self):
         return types.InlineKeyboardMarkup(inline_keyboard=
-             [[types.InlineKeyboardButton('🇺🇸 English',    url='https://teletype.in/@undrcrxwn/hidethisbot_en'),
-               types.InlineKeyboardButton('🇵🇱 Polski',     url='https://teletype.in/@undrcrxwn/hidethisbot_pl')],
-              [types.InlineKeyboardButton('🇷🇺 Русский',    url='https://teletype.in/@undrcrxwn/hidethisbot_ru'),
-               types.InlineKeyboardButton('🇺🇦 Українська', url='https://teletype.in/@undrcrxwn/hidethisbot_ua')],
-              [types.InlineKeyboardButton('🇮🇹 Italiano',   url='https://teletype.in/@undrcrxwn/hidethisbot_it'),
-               types.InlineKeyboardButton('🇨🇿 Čeština',    url='https://teletype.in/@undrcrxwn/hidethisbot_cz')]])
+             [[types.InlineKeyboardButton('🇺🇸 English',    url='https://teletype.in/@wetemp/wisper'),
+               types.InlineKeyboardButton('🇵🇱 Polski',     url='https://teletype.in/@wetemp/wisper')],
+              [types.InlineKeyboardButton('🇷🇺 Русский',    url='https://teletype.in/@wetemp/wisper'),
+               types.InlineKeyboardButton('🇺🇦 Українська', url='https://teletype.in/@wetemp/wisper')],
+              [types.InlineKeyboardButton('🇮🇹 Italiano',   url='https://teletype.in/@wetemp/wisper'),
+               types.InlineKeyboardButton('🇨🇿 Čeština',    url='https://teletype.in/@wetemp/wisper')]])
 
 class Media:
     def group_greeting_sticker_id(self):
