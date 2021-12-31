@@ -74,50 +74,50 @@ locale_it.spoiler_message = 'Messaggio contenente spoiler.'
 locale_en.group_greeting_message = (
         '👋 Hi! My name is %s and I can help you send private messages that only certain people can view. '
         'To learn more send /start@%s and feel free to ask for help in our '
-        '<a href="t.me/hidethisbot_chat">public community</a> if you\'ve got any questions.')
+        '<a href="t.me/botXdesk">public community</a> if you\'ve got any questions.')
 locale_ru.group_greeting_message = (
         '👋 Привет! Меня зовут %s и я могу помочь вам отправлять сообщения, которые смогут прочитать только '
         'определённый круг лиц. Чтобы узнать больше отправьте команду /start@%s и не стесняйтесь просить о помощи '
-        'в нашем <a href="t.me/hidethisbot_chat">публичном чате</a>, если у вас появятся какие-либо вопросы.')
+        'в нашем <a href="t.me/botXdesk">публичном чате</a>, если у вас появятся какие-либо вопросы.')
 locale_uk.group_greeting_message = (
         '👋 Привіт! Мене звуть %s і я можу допомогти вам відправляти повідомлення, які зможуть прочитати тільки '
         'певне коло осіб. Щоб дізнатися більше відправте команду /start@%s і не соромтеся просити про допомогу '
-        'в нашому <a href="t.me/hidethisbot_chat">публічному чаті</a>, якщо у вас виникнуть будь-які питання.')
+        'в нашому <a href="t.me/botXdesk">публічному чаті</a>, якщо у вас виникнуть будь-які питання.')
 locale_de.group_greeting_message = (
         '👋 Hi! Mein Name ist %s und ich kann dir helfen, private Nachrichten zu verschicken, die nur bestimmte Personen sehen können. '
         'Um zu sehen, wie das geht, sende einfach /start@%s! Fühle dich frei, bei Fragen, in unserer '
-        '<a href="t.me/hidethisbot_chat">Support Gruppe</a> zu fragen.')
+        '<a href="t.me/botXdesk">Support Gruppe</a> zu fragen.')
 locale_it.group_greeting_message = (
         '👋 Ciao! Il mio nome è %s E posso aiutarti ad inviare messaggi privati che solo alcuni possono vedere. '
         'per sapere di più invia /start@%s e sentiti libero di chiedere aiuto '
-        '<a href="t.me/hidethisbot_chat">gruppo pubblico</a> se hai domande.')
+        '<a href="t.me/botXdesk">gruppo pubblico</a> se hai domande.')
 
 # INFO_MESSAGE
 locale_en.info_message = (
-        'If you still have questions after reading the article, you can contact support or simply ask '
+        'If you still have questions even after reading this article then you can contact support or simply ask '
         'for help in our public chat at any time you want.\n\n'
-        '👥 Public chat: @hidethisbot_chat\n'
-        '⚙ Support: @undrcrxwn')
+        '👥 Public chat: @BotXChat\n'
+        '⚙ Support: @itsme_him)
 locale_ru.info_message = (
         'Если у вас остались вопросы после прочтения статьи, вы можете в любое время обратиться в '
         'поддержку или попросить о помощи в нашем публичном чате.\n\n'
-        '👥 Публичный чат: @hidethisbot_chat\n'
-        '⚙ Поддержка: @undrcrxwn')
+        '👥 Публичный чат: @BotXChat\n'
+        '⚙ Поддержка: @itsme_him)
 locale_uk.info_message = (
         'Якщо у вас залишилися питання після прочитання статті, ви можете в будь-який час звернутися в службу '
         'підтримки або попросити про допомогу в нашому публічному чаті.\n\n'
-        '👥 Публічний чат: @hidethisbot_chat\n'
-        '⚙ Підтримка: @undrcrxwn')
+        '👥 Публічний чат: @BotXChat\n'
+        '⚙ Підтримка: @itsme_him)
 locale_de.info_message = (
         'Wenn du nach dem Lesen des Artikels noch Fragen hast, kannst du den Support kontaktieren oder einfach '
         'in unserem öffentlichen Chat um Hilfe bitten, wann immer du willst.\n\n'
-        '👥 öffentlichen Chat: @hidethisbot_chat\n'
-        '⚙ Hilfe: @undrcrxwn')
+        '👥 öffentlichen Chat: @BotXChat\n'
+        '⚙ Hilfe: @itsme_him)
 locale_it.info_message = (
          'Se hai ancora domande dopo aver letto questo articolo, puoi contattare il supporto nella nostra '
          'chat pubblica quando vuoi.\n\n'
-         '👥 Gruppo pubblico: @hidethisbot_chat\n'
-         '⚙ Supporto: @undrcrxwn')
+         '👥 Gruppo pubblico: @BotXChat\n'
+         '⚙ Supporto: @itsme_him)
 
 # HOW_TO_USE
 locale_en.how_to_use = 'How to use this bot?'
