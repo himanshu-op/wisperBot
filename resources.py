@@ -55,13 +55,11 @@ class QueryResults:
 
 class Keyboards:
     def info_keyboard(self):
+        
         return types.InlineKeyboardMarkup(inline_keyboard=
-             [[types.InlineKeyboardButton('🇺🇸 English',    url='https://teletype.in/@wetemp/wisper'),
-               types.InlineKeyboardButton('🇵🇱 Polski',     url='https://teletype.in/@wetemp/wisper')],
-              [types.InlineKeyboardButton('🇷🇺 Русский',    url='https://teletype.in/@wetemp/wisper'),
-               types.InlineKeyboardButton('🇺🇦 Українська', url='https://teletype.in/@wetemp/wisper')],
-              [types.InlineKeyboardButton('🇮🇹 Italiano',   url='https://teletype.in/@wetemp/wisper'),
-               types.InlineKeyboardButton('🇨🇿 Čeština',    url='https://teletype.in/@wetemp/wisper')]])
+             [[types.InlineKeyboardButton('➪ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ❓',    url='https://teletype.in/@wetemp/wisper')],
+              [types.InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ',    url='https://t.me/botXdesk')
+               types.InlineKeyboardButton('ʙᴏᴛ x ɴᴇᴛᴡᴏʀᴋ',   url='https://t.me/botxnetwork')]])
 
 class Media:
     def group_greeting_sticker_id(self):
